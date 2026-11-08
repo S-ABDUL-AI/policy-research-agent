@@ -1,0 +1,121 @@
+{
+  "question": "What is the evidence on algorithmic benefit-eligibility tools and racial equity?",
+  "total_steps": 11,
+  "total_input_tokens": 48501,
+  "total_output_tokens": 6062,
+  "total_time_ms": 72480.3,
+  "output_length_drift_cv": 0.81,
+  "position_change_signals": 0,
+  "tool_distribution": {
+    "web_search": 6,
+    "fetch_url": 2,
+    "take_note": 3
+  },
+  "per_step": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "input_tokens": 1089,
+      "output_tokens": 317,
+      "compression_ratio": 0.2911,
+      "output_chars": 121,
+      "duration_ms": 21401.6
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "input_tokens": 1089,
+      "output_tokens": 317,
+      "compression_ratio": 0.2911,
+      "output_chars": 1874,
+      "duration_ms": 1233.8
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "input_tokens": 1089,
+      "output_tokens": 317,
+      "compression_ratio": 0.2911,
+      "output_chars": 2132,
+      "duration_ms": 2565.6
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "input_tokens": 3012,
+      "output_tokens": 145,
+      "compression_ratio": 0.0481,
+      "output_chars": 1947,
+      "duration_ms": 6399.4
+    },
+    {
+      "step": 5,
+      "tool": "web_search",
+      "input_tokens": 3012,
+      "output_tokens": 145,
+      "compression_ratio": 0.0481,
+      "output_chars": 123,
+      "duration_ms": 16873.7
+    },
+    {
+      "step": 6,
+      "tool": "fetch_url",
+      "input_tokens": 3907,
+      "output_tokens": 326,
+      "compression_ratio": 0.0834,
+      "output_chars": 4058,
+      "duration_ms": 1292.2
+    },
+    {
+      "step": 7,
+      "tool": "fetch_url",
+      "input_tokens": 3907,
+      "output_tokens": 326,
+      "compression_ratio": 0.0834,
+      "output_chars": 4110,
+      "duration_ms": 386.1
+    },
+    {
+      "step": 8,
+      "tool": "web_search",
+      "input_tokens": 7015,
+      "output_tokens": 302,
+      "compression_ratio": 0.0431,
+      "output_chars": 2250,
+      "duration_ms": 1106.0
+    },
+    {
+      "step": 9,
+      "tool": "take_note",
+      "input_tokens": 8127,
+      "output_tokens": 1289,
+      "compression_ratio": 0.1586,
+      "output_chars": 476,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 10,
+      "tool": "take_note",
+      "input_tokens": 8127,
+      "output_tokens": 1289,
+      "compression_ratio": 0.1586,
+      "output_chars": 497,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 11,
+      "tool": "take_note",
+      "input_tokens": 8127,
+      "output_tokens": 1289,
+      "compression_ratio": 0.1586,
+      "output_chars": 933,
+      "duration_ms": 0.0
+    }
+  ],
+  "flags": {
+    "high_compression": true,
+    "high_length_drift": true,
+    "position_instability": false,
+    "tool_overuse": false
+  }
+}

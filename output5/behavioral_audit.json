@@ -1,0 +1,177 @@
+{
+  "question": "What is the evidence on algorithmic benefit-eligibility tools and racial equity?",
+  "total_steps": 17,
+  "total_input_tokens": 121559,
+  "total_output_tokens": 10470,
+  "total_time_ms": 41968.1,
+  "output_length_drift_cv": 0.8924,
+  "position_change_signals": 0,
+  "tool_distribution": {
+    "web_search": 6,
+    "fetch_url": 3,
+    "take_note": 5,
+    "get_notes": 1,
+    "write_brief": 2
+  },
+  "per_step": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "input_tokens": 1283,
+      "output_tokens": 339,
+      "compression_ratio": 0.2642,
+      "output_chars": 2488,
+      "duration_ms": 3489.8
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "input_tokens": 1283,
+      "output_tokens": 339,
+      "compression_ratio": 0.2642,
+      "output_chars": 245,
+      "duration_ms": 3232.4
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "input_tokens": 1283,
+      "output_tokens": 339,
+      "compression_ratio": 0.2642,
+      "output_chars": 2090,
+      "duration_ms": 1568.0
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "input_tokens": 3466,
+      "output_tokens": 266,
+      "compression_ratio": 0.0767,
+      "output_chars": 2026,
+      "duration_ms": 2027.5
+    },
+    {
+      "step": 5,
+      "tool": "web_search",
+      "input_tokens": 3466,
+      "output_tokens": 266,
+      "compression_ratio": 0.0767,
+      "output_chars": 273,
+      "duration_ms": 2477.2
+    },
+    {
+      "step": 6,
+      "tool": "fetch_url",
+      "input_tokens": 4632,
+      "output_tokens": 440,
+      "compression_ratio": 0.095,
+      "output_chars": 4058,
+      "duration_ms": 1139.4
+    },
+    {
+      "step": 7,
+      "tool": "fetch_url",
+      "input_tokens": 4632,
+      "output_tokens": 440,
+      "compression_ratio": 0.095,
+      "output_chars": 3470,
+      "duration_ms": 789.4
+    },
+    {
+      "step": 8,
+      "tool": "fetch_url",
+      "input_tokens": 4632,
+      "output_tokens": 440,
+      "compression_ratio": 0.095,
+      "output_chars": 4110,
+      "duration_ms": 341.5
+    },
+    {
+      "step": 9,
+      "tool": "web_search",
+      "input_tokens": 8902,
+      "output_tokens": 403,
+      "compression_ratio": 0.0453,
+      "output_chars": 2026,
+      "duration_ms": 1332.4
+    },
+    {
+      "step": 10,
+      "tool": "take_note",
+      "input_tokens": 10094,
+      "output_tokens": 1024,
+      "compression_ratio": 0.1014,
+      "output_chars": 454,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 11,
+      "tool": "take_note",
+      "input_tokens": 10094,
+      "output_tokens": 1024,
+      "compression_ratio": 0.1014,
+      "output_chars": 722,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 12,
+      "tool": "take_note",
+      "input_tokens": 10094,
+      "output_tokens": 1024,
+      "compression_ratio": 0.1014,
+      "output_chars": 677,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 13,
+      "tool": "take_note",
+      "input_tokens": 10094,
+      "output_tokens": 1024,
+      "compression_ratio": 0.1014,
+      "output_chars": 23,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 14,
+      "tool": "take_note",
+      "input_tokens": 11069,
+      "output_tokens": 527,
+      "compression_ratio": 0.0476,
+      "output_chars": 795,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 15,
+      "tool": "get_notes",
+      "input_tokens": 11069,
+      "output_tokens": 527,
+      "compression_ratio": 0.0476,
+      "output_chars": 2543,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 16,
+      "tool": "write_brief",
+      "input_tokens": 12659,
+      "output_tokens": 1024,
+      "compression_ratio": 0.0809,
+      "output_chars": 35,
+      "duration_ms": 0.0
+    },
+    {
+      "step": 17,
+      "tool": "write_brief",
+      "input_tokens": 12807,
+      "output_tokens": 1024,
+      "compression_ratio": 0.08,
+      "output_chars": 180,
+      "duration_ms": 0.0
+    }
+  ],
+  "flags": {
+    "high_compression": true,
+    "high_length_drift": true,
+    "position_instability": false,
+    "tool_overuse": true
+  }
+}
